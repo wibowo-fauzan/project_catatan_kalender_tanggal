@@ -52,3 +52,25 @@ Beberapa resource Flutter yang dapat dipelajari:
 ```bash
 flutter pub get
 flutter run
+
+file di dalam folder lib/. Struktur foldernya akan dibuat rapi seperti ini:
+
+lib/
+│
+├── main.dart
+├── navigasi_utama.dart
+├── fungsi_pesan.dart
+│
+├── agenda/
+│   ├── beranda_agenda.dart
+│   └── halaman_editor.dart
+│
+├── kalender/
+│   └── halaman_kalender.dart
+│
+└── keuangan/
+    ├── halaman_keuangan.dart
+    ├── detail_history_keuangan.dart
+    └── ribuan_input_formatter.dart
+
+cara install apk nya dengan perintah berikut : flutter build apk --release
