@@ -1,4 +1,4 @@
-# flutter_this1
+# Jadwal & manajemen Keuangan
 
 Aplikasi Flutter untuk membantu pengguna dalam mengatur aktivitas sehari-hari, mulai dari pencatatan agenda, pengelolaan jadwal, hingga pencatatan keuangan pribadi dalam satu aplikasi yang praktis dan mudah digunakan.
 
