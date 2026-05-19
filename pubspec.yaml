@@ -1,0 +1,42 @@
+name: flutter_this1
+description: "Aplikasi Catatan Interaktif Kompleks"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Library penyimpanan
+  shared_preferences: ^2.2.2
+
+  # Gunakan versi yang diminta oleh SDK Anda
+  intl: ^0.20.2
+
+  # Gunakan 'any' agar Flutter mencarikan versi yang pas secara otomatis
+  flutter_quill: any
+
+  cupertino_icons: ^1.0.8
+
+  image_picker: ^1.0.7 # WAJIB untuk fitur gambar
+  share_plus: ^12.0.2
+  table_calendar: ^3.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  # Pastikan ini TRUE agar ikon-ikon Material muncul
+  uses-material-design: true
+
+  # Jika nanti kamu ingin menambahkan gambar ke dalam catatan,
+  # jangan lupa tambahkan section assets di sini.
