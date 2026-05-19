@@ -43,6 +43,9 @@ Beberapa resource Flutter yang dapat dipelajari:
 - [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Flutter Documentation](https://docs.flutter.dev/)
 
+## cara release apk nya
+cara install apk nya dengan perintah berikut : flutter build apk --release
+
 ## Cara Menjalankan Project
 
 1. Install Flutter SDK
@@ -72,5 +75,3 @@ lib/
     ├── halaman_keuangan.dart
     ├── detail_history_keuangan.dart
     └── ribuan_input_formatter.dart
-
-cara install apk nya dengan perintah berikut : flutter build apk --release
